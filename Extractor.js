@@ -41,3 +41,10 @@
     console.log("extracted credit cards:", get_credit_cards(data_string));
     console.log("extracted hashtags:", get_hashtags(data_string));
 
+    // this will give the following output:
+
+    // 'extracted emails:' [ 'k.mbonimpay@alustudent.com' ]
+    // 'extracted urls:' [ 'https://kevinmk.onrender.com' ]
+    // 'extracted phone numbers:' [ '(123) 456-7890', '123-456-7890' ]
+    // 'extracted credit cards:' [ '1234-5678-9012-3456' ]
+    // 'extracted hashtags:' [ '#coding', '#JavaScript', '#food' ]
